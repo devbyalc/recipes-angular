@@ -12,8 +12,6 @@ export class ShoppingListService{
       }
       onIngredientAdded(newIngredient: Ingredient)
       {
-        console.log("new Ingredient", newIngredient);
         this.ingredients.push(newIngredient);
-        console.log("method called, list all ingredients",this.ingredients);
       }
 }
